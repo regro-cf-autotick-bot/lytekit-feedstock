@@ -1,5 +1,5 @@
 {% set name = "lytekit" %}
-{% set version = "0.15.35" %}
+{% set version = "0.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lytekit-{{ version }}.tar.gz
-  sha256: 7498aa0c796ea62aa3acc699d722d797a2f9822c9937d946c5d81713a5089a2e
+  sha256: b01f35b73b901a8e73c19447bbc763e09408b0914f1ace100f9fda8899020f9c
 
 build:
   noarch: python
